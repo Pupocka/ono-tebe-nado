@@ -141,8 +141,6 @@
   text-transform: uppercase;
   letter-spacing: normal;
   word-spacing: 18px;
-  font-family: inherit;
-
 }
 
 .bet-button {
@@ -157,6 +155,7 @@
  font-weight: 500;
  line-height: normal;
  text-transform: uppercase;
+ font-family: inherit;
 }
 
 .lots {
