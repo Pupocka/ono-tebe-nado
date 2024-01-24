@@ -16,7 +16,6 @@
 
 .header__links-list {
   display: flex;
-  align-items: center;
   gap: 33px;
   color: #000;
   font-size: 18px;
@@ -28,6 +27,7 @@
 
 .header__link {
   font-size: 18px;
+  white-space: nowrap;
 }
 
 .header__links-list-item {
@@ -52,12 +52,12 @@
   font-size: 18px;
   line-height: 1.35;
   font-style: normal;
-  max-width: 240px;
 }
 
 .header__address {
-  justify-self: end;
-  margin-right: 24px;
+  margin-right: 25px;
+  justify-self: flex-end;
+  max-width: 240px;
 }
 
 .address__item {
@@ -65,8 +65,7 @@
   font-size: 18px;
   line-height: 1.35;
   text-underline-position: under;
-  
-  }
+}
 
 .cover {
   padding: 165px 50px 0;
@@ -75,6 +74,8 @@
   color: #fff;
   position: relative;
   min-height: 757px;
+  background-position: center;
+  background-size:auto;
 }
 
 .overlay {
@@ -99,8 +100,6 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  background-position: center;
-  background-size:auto;
 }
 
 .aligned-text {
@@ -142,11 +141,12 @@
   text-transform: uppercase;
   letter-spacing: normal;
   word-spacing: 18px;
+  font-family: inherit;
+
 }
 
 .bet-button {
  border: 1px solid white;
- font-family: inherit;
  padding: 12px 32px 11px 31px;
  color: #FFF;
  text-decoration: none;
@@ -189,6 +189,7 @@
   min-height: 563px;
   padding: 50px 40px;
   background-position: center;
+  background-size: auto;
 }
 
 .card-link {
